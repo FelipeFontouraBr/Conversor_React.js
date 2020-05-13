@@ -12,11 +12,11 @@ export default class Conversor extends Component {
             moedaA_valor:"",//O valor vira do valor que será digitado no campo
             moedaB_valor: 0,//O valor da moedaB vai ser o valor calculado depois que clicarmos para converter 
         }
-
+        this.converter = this.converter.bind(this);//bind (pode passar algum objeto dentro, o objeto que passar, ele vai ser o this dentro da function) 
     }
     //Método que vai converter da moedaA para B:
     converter(){ //ele é um método, por isso (){}
-
+        
     }
 
     render() { 
