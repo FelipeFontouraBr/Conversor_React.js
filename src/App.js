@@ -8,6 +8,7 @@ class App extends Component {
   render() { //Aqui é onde aparece os elementos que será utilizado na tela
     return (
       <div className="App">
+        <h1>Conversor de Moedas</h1>
         {/*Aqui vamos usar o componente conversor*/}
         <div className="linha">
           <Conversor moedaA="USD" moedaB="BRL"></Conversor>
