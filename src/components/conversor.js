@@ -17,6 +17,19 @@ export default class Conversor extends Component {
     //Método que vai converter da moedaA para B:
     converter(){ //ele é um método, por isso (){}
         
+        //vamos definir qual será a conversão de qual moeda
+        let de_para = `${this.props.moedaA}_${this.props.moedaB}`;
+        let url = `http://free.currencyconverterapi.com/api/v5/convert?q=${de_para}&compact=y`//URL que vamos utilizar aqui
+
+        fetch(url)//vamos acessar a URL e pegar o valor convertido
+        .then(res=>{
+            
+            return res.json()//vou pegar o resultado e converter para json
+        })
+        .then(json=> {//quando acabar de converter
+            let cotacao = json[de_para].val;//vou pegar minha cotação
+            let moedaB_valor = (parseFloat(this.state.moedaA_valor) * cotacao).toFixed(2) //Fixed só quero 2 casas decimais
+        })
     }
 
     render() { 
