@@ -2,7 +2,8 @@
     padding: 20px;
     max-width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-    background: rgb(102, 140, 247);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     border-radius: 5px;
 }
 #in {

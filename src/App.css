@@ -5,6 +5,9 @@
 }
 h1{
     text-align: center;
+    color: rgb(250, 242, 242);
+    border: 2px solid rgb(250, 242, 242);
+    border-radius: 20px;
 }
 .App{
     margin:auto;
