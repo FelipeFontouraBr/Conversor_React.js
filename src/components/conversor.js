@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './Conversor.css'
 
 export default class Conversor extends Component {
 
