@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//Componentes:
+import Conversor from "./components/Conversor"
+
 class App extends Component { 
   render() { //Aqui é onde aparece os elementos que será utilizado na tela
     return (
