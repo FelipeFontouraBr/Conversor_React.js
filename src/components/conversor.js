@@ -7,6 +7,8 @@ export default class Conversor extends Component {
             <div className="conversor"> {/*Componente conversor*/}
                 <h2>USD para BRL</h2>
                 <input type="text"></input>{/*Valor que vamos converter*/}
+                <input type="button" value="Converter"></input>
+                <h2>Valor convertido</h2>
 
             </div>
         )
