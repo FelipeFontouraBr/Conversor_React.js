@@ -37,8 +37,8 @@ export default class Conversor extends Component {
         return ( //Todos componentes deve retornar apenas uma div, e todos meus elementos deve estar dentro dessa div
             <div className="conversor"> {/*Componente conversor*/}
                 <h2>{this.props.moedaA} para {this.props.moedaB}</h2>{/*Por estar dentro de uma classe, colocar this*/}
-                <input type="text" onChange={(event) => {this.setState({moedaA_valor:event.target.value})}}></input>{/*Valor que vamos converter / onChange receberá uma function e vai atualizar o estado sempre que o campo mudar / Explicação: event.target = onChange irá disparar um evento, esse evento irá pegar quem é o target (nesse caso, será o ELEMENTO INPUT) e o valor que estiver dentro dele é o que nós queremos*/}
-                <input type="button" value="Converter" onClick={this.converter}></input>{/*onClick irá chamar a função converter*/}
+                <input id="in" type="text" onChange={(event) => {this.setState({moedaA_valor:event.target.value})}}></input>{/*Valor que vamos converter / onChange receberá uma function e vai atualizar o estado sempre que o campo mudar / Explicação: event.target = onChange irá disparar um evento, esse evento irá pegar quem é o target (nesse caso, será o ELEMENTO INPUT) e o valor que estiver dentro dele é o que nós queremos*/}
+                <input id="btn" type="button" value="Converter" onClick={this.converter}></input>{/*onClick irá chamar a função converter*/}
                 <h2>{this.state.moedaB_valor}</h2>{/*Aqui irá receber o estado da moeda B */}
 
             </div>

@@ -1,5 +1,13 @@
 .conversor {
     padding: 20px;
     max-width: 300px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    background: rgb(102, 140, 247);
+    border-radius: 5px;
+}
+#in {
+    background-color: rgb(238, 252, 238);
+}
+#btn {
+    height: 21.5px;
 }
