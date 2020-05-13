@@ -12,6 +12,10 @@ class App extends Component {
         moedaA="USD"
         moedaB="BRL"
         ></Conversor>
+        <Conversor //Real para dolar
+        moedaA="BRL"
+        moedaB="USD"
+        ></Conversor>
       </div>
     );
   }
