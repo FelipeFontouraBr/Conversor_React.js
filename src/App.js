@@ -6,20 +6,10 @@ class App extends Component {
   render() { //Aqui é onde aparece os elementos que será utilizado na tela
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Conversor //Aqui vamos usar o componente conversor
+        moedaA="USD"
+        moedaB="BRL"
+        ></Conversor>
       </div>
     );
   }
