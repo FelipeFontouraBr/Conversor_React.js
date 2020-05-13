@@ -11,5 +11,8 @@ This project is a currency converter developed with React.js
 
 ### PRESENTATION
 
-IMAGE: 
 ![img](https://github.com/FelipeFontouraBr/Conversor_React.js/blob/master/img/c-react.png)
+
+### Demonstration
+
+![img](https://github.com/FelipeFontouraBr/Conversor_React.js/blob/master/img/cmreact.gif)
