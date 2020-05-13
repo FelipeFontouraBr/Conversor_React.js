@@ -7,6 +7,12 @@ export default class Conversor extends Component {
     constructor(props) {
         super(props);
 
+    //Para converter moedaA para B, precisa armazenar em algum lugar. Armezenamos no estado do componente:
+        this.state = { //isso é um objeto
+            moedaA_valor:"",
+            moedaB_valor: 0,
+        }
+
     }
 
     render() { 
