@@ -19,17 +19,18 @@ export default class Conversor extends Component {
         
         //vamos definir qual será a conversão de qual moeda
         let de_para = `${this.props.moedaA}_${this.props.moedaB}`;
-        let url = `http://free.currencyconverterapi.com/api/v5/convert?q=${de_para}&compact=y`//URL que vamos utilizar aqui
+        let url = `http://free.currencyconverterapi.com/api/v5/convert?q=${de_para}&compact=y&apiKey=63566804ce5129e31be8`//URL que vamos utilizar aqui
 
         fetch(url)//vamos acessar a URL e pegar o valor convertido
-        .then(res=>{
-            
-            return res.json()//vou pegar o resultado e converter para json
-        })
-        .then(json=> {//quando acabar de converter
-            let cotacao = json[de_para].val;//vou pegar minha cotação
-            let moedaB_valor = (parseFloat(this.state.moedaA_valor) * cotacao).toFixed(2) //Fixed só quero 2 casas decimais
-        })
+            .then(res =>{
+                
+                return res.json()//vou pegar o resultado e converter para json
+            })
+            .then(json => {//quando acabar de converter
+                let cotacao = json[de_para].val;//vou pegar minha cotação
+                let moedaB_valor = (parseFloat(this.state.moedaA_valor) * cotacao).toFixed(2) //Fixed só quero 2 casas decimais
+                this.setState({ moedaB_valor })
+            })
     }
 
     render() { 
@@ -38,7 +39,7 @@ export default class Conversor extends Component {
                 <h2>{this.props.moedaA} para {this.props.moedaB}</h2>{/*Por estar dentro de uma classe, colocar this*/}
                 <input type="text" onChange={(event) => {this.setState({moedaA_valor:event.target.value})}}></input>{/*Valor que vamos converter / onChange receberá uma function e vai atualizar o estado sempre que o campo mudar / Explicação: event.target = onChange irá disparar um evento, esse evento irá pegar quem é o target (nesse caso, será o ELEMENTO INPUT) e o valor que estiver dentro dele é o que nós queremos*/}
                 <input type="button" value="Converter" onClick={this.converter}></input>{/*onClick irá chamar a função converter*/}
-                <h2>Valor convertido</h2>
+                <h2>{this.state.moedaB_valor}</h2>{/*Aqui irá receber o estado da moeda B */}
 
             </div>
         )
