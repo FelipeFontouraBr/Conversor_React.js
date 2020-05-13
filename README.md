@@ -1,4 +1,4 @@
-# CURRENCY CONVERTER
+# CURRENCY CONVERTER 💱
 
 This project is a currency converter developed with React.js
 
