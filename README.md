@@ -1,11 +1,11 @@
-# CURRENCY CONVERTER 💱
+# CURRENCY CONVERTER
 
 This project is a currency converter developed with React.js ![img](https://github.com/FelipeFontouraBr/Conversor_React.js/blob/master/public/favicon.ico)
 
 ## Technologies
 
 - JavaScript;
-- React.Js
+- React.Js;
 - Html5;
 - Css3;
 
