@@ -22,4 +22,4 @@
 ![img](https://github.com/FelipeFontouraBr/Conversor_React.js/blob/master/img/cmreact.gif)
 
 ---
-Learning and Development - by Felipe Fontoura :computer: [See my linkedin!] (https://www.linkedin.com/in/fontourafelipe/)
+Learning and Development - by Felipe Fontoura :computer: [See my linkedin!](https://www.linkedin.com/in/fontourafelipe/)
