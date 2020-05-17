@@ -1,4 +1,4 @@
-<h1 align="center">CURRENCY CONVERTER</h1>
+<h2 align="center">CURRENCY CONVERTER</h2>
 
 This project is a currency converter developed with React.js ![img](https://github.com/FelipeFontouraBr/Conversor_React.js/blob/master/public/favicon.ico)
 
