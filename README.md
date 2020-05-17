@@ -20,3 +20,6 @@
 ### Demonstration
 
 ![img](https://github.com/FelipeFontouraBr/Conversor_React.js/blob/master/img/cmreact.gif)
+
+---
+Learning and Development - by Felipe Fontoura :wave: [See my linkedin!] (https://www.linkedin.com/in/fontourafelipe/)
