@@ -13,11 +13,11 @@
 - Html5;
 - Css3;
 
-### PRESENTATION
+### PRESENTATION:
 
 ![img](https://github.com/FelipeFontouraBr/Conversor_React.js/blob/master/img/c-react.png)
 
-### Demonstration
+### DEMONSTRATION:
 
 ![img](https://github.com/FelipeFontouraBr/Conversor_React.js/blob/master/img/cmreact.gif)
 
