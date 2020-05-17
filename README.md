@@ -1,3 +1,7 @@
+<h1 align="center">
+    <img alt="currency" title="currency" src=".github/logo.png" width="150px" style="border-radius:100px">
+</h1>
+
 <h2 align="center">CURRENCY CONVERTER</h2>
 
 This project is a currency converter developed with React.js ![img](https://github.com/FelipeFontouraBr/Conversor_React.js/blob/master/public/favicon.ico)
